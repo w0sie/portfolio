@@ -1,0 +1,28 @@
+# Ignore common development files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore temporary files
+/tmp/
+*.tmp
+*.log
+
+# Ignore build artifacts (if added later)
+dist/
+build/
+.cache/
+
+# Node modules (if added later)
+node_modules/
+
+# Keep placeholder generation script but not needed for site
+images/create-placeholders.sh
